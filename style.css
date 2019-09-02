@@ -1,4 +1,4 @@
-.lab {
+.lab-all {
   display: block;
   margin-bottom: 10px;
 }
@@ -11,7 +11,7 @@
   margin-bottom: 0;
 }
 
-.labb {
+.lab-cats {
   display: inline-block;
   margin-bottom: 10px;
 }

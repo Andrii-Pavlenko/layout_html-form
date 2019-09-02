@@ -16,56 +16,56 @@
   <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" onsubmit="onSubmit(event)" method="get">
     <fieldset class="block">
       <legend>Personal information</legend>
-      <label class="lab">
+      <label class="lab-all">
         Surname:
         <input type="text" name="Surname" autocomplete="off" required>
       </label>
-      <label class="lab">
+      <label class="lab-all">
         Name:
         <input type="text" name="Name" autocomplete="off" required>
       </label>
-      <label class="lab">
+      <label class="lab-all">
         How old are You?
         <input type="number" name="ages" value="12" min="1" max="130" data-qa="field-value">
       </label>
-      <label class="lab">
+      <label class="lab-all">
         Full date of birth:
         <input type="date" name="date-of-birth">
       </label>
-      <label class="lab">
+      <label class="lab-all">
         I accept the term of the agreement
         <input type="checkbox" name="agreem" required>
       </label>
     </fieldset>
     <fieldset class="block">
       <legend>Registration</legend>
-      <label class="lab">
+      <label class="lab-all">
         E-mail:
         <input type="email" name="E-mail" required data-qa="field-placeholder" placeholder="email@example.com">
       </label>
-      <label class="lab">
+      <label class="lab-all">
         Password:
         <input type="password" required minlength="6" maxlength="25" name="Password">
       </label>
     </fieldset>
     <fieldset class="block">
       <legend>An interesting fact about you!</legend>
-      <label class="labb">
+      <label class="lab-cats">
         Do you love cats?
         <input type="radio" name="cats" checked value="Yes"> Yes
       </label>
-      <label class="labb">
+      <label class="lab-cats">
         <input type="radio" name="cats" checked value="No"> No
       </label>
-      <label class="lab">
+      <label class="lab-all">
         What is your favorite color?
         <input type="color" name="color">
       </label>
-      <label class="lab">
+      <label class="lab-all">
         What time do you go to bad?
         <input type="time" name="go-to-bad">
       </label>
-      <label class="lab">
+      <label class="lab-all">
         What are your favorite brand of cars?
         <select name="select" size="4">
           <option value="BMW">BMW</option>
@@ -73,18 +73,18 @@
           <option value="Lada">Lada</option>
         </select>
       </label>
-      <label class="lab">
+      <label class="lab-all">
         How do you rate your work?
         <input type="range" name="rate" min="1" max="10" value="1">
       </label>
     </fieldset>
     <fieldset class="block">
       <legend>Additional info:</legend>
-      <label class="lab">
+      <label class="lab-all">
         Comments:
         <textarea name="Comments"></textarea>
       </label>
-      <label class="lab">
+      <label class="lab-all">
         Would you recommended us?
         <select name="recommend">
           <option value="Yes">yes</option>
