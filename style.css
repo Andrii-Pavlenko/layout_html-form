@@ -1,4 +1,4 @@
-label {
+.lab {
   display: block;
   margin-bottom: 10px;
 }
@@ -9,4 +9,9 @@ label {
 
 .block > label:last-child {
   margin-bottom: 0;
+}
+
+.labb {
+  display: inline-block;
+  margin-bottom: 10px;
 }
