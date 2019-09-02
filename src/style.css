@@ -1,17 +1,17 @@
-.lab-all {
+.input-row {
   display: block;
   margin-bottom: 10px;
 }
 
-.block {
+.inputs-block {
   margin-bottom: 20px;
 }
 
-.block > label:last-child {
+.inputs-block > label:last-child {
   margin-bottom: 0;
 }
 
-.lab-cats {
+.input-row__cats {
   display: inline-block;
   margin-bottom: 10px;
 }
